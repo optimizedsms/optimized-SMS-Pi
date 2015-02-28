@@ -195,7 +195,7 @@ while True:
         uri = msg.findOption(coapy.options.UriPath)
         print "got new threshold:",uri.value
  	value = uri.value
-	fo = open("/home/pi/tempserver/threshold.txt", "w")
+	fo = open("/home/pi/optimized-SMS-Pi/threshold.txt", "w")
 	threshold = int(value.split()[1])
 	print "new threshold is",threshold
 	fo.write(str(threshold));
