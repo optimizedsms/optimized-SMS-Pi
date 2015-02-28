@@ -171,6 +171,7 @@ services.add_service(TempService('temp'))
 fo = open("/home/pi/optimized-SMS-Pi/threshold.txt","r")
 strThres = fo.read(10)
 threshold = int(strThres)
+print "starting tempserver.py version 0.1"
 print "Threshold is ",threshold
 fo.close()
 

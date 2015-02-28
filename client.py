@@ -69,7 +69,7 @@ cmdargs = str(sys.argv)
 
 if total == 2:
    TCP_IP=sys.argv[1]
-
+print "starting client.py version 0.1"
 print "connecting target to ", TCP_IP
 
 # data = s.recv(BUFFER_SIZE)

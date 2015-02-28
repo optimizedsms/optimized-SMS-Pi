@@ -45,6 +45,8 @@ def getRemoteIp():
  sock2.bind(('', RX_PORT))
  sock2.settimeout(10)
 
+ print "getremote.py version 0.1"
+
  while True:
     try:
      data, addr = sock2.recvfrom(1024) # buffer size is 1024 bytes
