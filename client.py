@@ -45,7 +45,7 @@ def init():
     except:
           print "No connection"
           print "Trying to launch adb"
-          os.system("/home/pi/tempserver/adb forward tcp:50001 tcp:50001")
+          os.system("/home/pi/optimized-SMS-pi/adb forward tcp:50001 tcp:50001")
           REMOTE_IP = '127.0.0.1'
           print "Trying to connect via adb:", REMOTE_IP
           try:

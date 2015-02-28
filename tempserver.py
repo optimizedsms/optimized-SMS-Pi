@@ -168,7 +168,7 @@ services.add_service(AsyncCounterService('async'))
 services.add_service(TempService('temp'))
 
 
-fo = open("/home/pi/tempserver/threshold.txt","r")
+fo = open("/home/pi/optimized-SMS-pi/threshold.txt","r")
 strThres = fo.read(10)
 threshold = int(strThres)
 print "Threshold is ",threshold
