@@ -8,5 +8,5 @@ logger "one to client"
 sudo python /home/pi/optimized-SMS-pi/client.py &
 sleep 1
 logger "one to temp server"
-sudo python /home/pi/optimized-SMS-pi/optimized-SMS-pi.py -p54320 &
+sudo python /home/pi/optimized-SMS-pi/tempserver.py -p54320 &
 
